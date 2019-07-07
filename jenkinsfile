@@ -3,7 +3,7 @@ node {
     git 'https@github.com:sureshscm/co-build-integrate.git'
     }
     stage('Compile-Package'){
-    sh 'mvn' package'
+    sh 'mvn package'
     }
   }
   
