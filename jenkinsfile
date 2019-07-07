@@ -2,8 +2,5 @@ node {
    stage ('SCM Checkout'){
     git 'git@github.com:sureshscm/co-build-integrate.git'
     }
-    stage('Compile-Package'){
-    sh 'mvn package'
-    }
   }
   
